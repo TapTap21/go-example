@@ -12,7 +12,7 @@ phases:
       - echo Getting packages
       - go get ./...
       - echo Compiling the Go code...
-      - go build hello.go
+      - go build main.go
   post_build:
     commands:
       - echo Build completed on `date`
